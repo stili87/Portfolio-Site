@@ -43,7 +43,6 @@
   --bs-dark: #212529;
   /* --bs-primary-rgb: 189, 93, 56; */
   --bs-primary-rgb: 71, 118, 50;
-  /* color: rgb(71, 118, 50); */
   --bs-secondary-rgb: 108, 117, 125;
   --bs-success-rgb: 25, 135, 84;
   --bs-info-rgb: 13, 202, 240;
@@ -11451,7 +11450,7 @@ section.resume-section .resume-section-content {
   justify-content: center;
   align-items: center;
   text-decoration: 0;
-  cursor: pointer;
+
   border: 1px solid lightgrey;
   border-radius: 25px;
   margin-bottom: 25px;
@@ -11465,4 +11464,25 @@ section.resume-section .resume-section-content {
 .projects-description {
   margin-top: 10px;
   width: 400px;
+}
+
+.project-github {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-decoration: 0;
+  cursor: pointer;
+  border-radius: 25px;
+  margin-bottom: 25px;
+}
+
+.projects-main-link {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-decoration: 0;
+  cursor: pointer;
+  margin-bottom: 25px;
 }
